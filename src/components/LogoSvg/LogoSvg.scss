@@ -1,0 +1,61 @@
+svg {
+    cursor: pointer;
+}
+
+#frameLogo {
+    stroke: black; // Adicione uma borda preta
+    stroke-width: 2; // Defina a largura da borda como 2 pixels
+  }
+
+#a1-letter,
+#r-letter,
+#c-letter,
+#e-letter,
+#l1-letter,
+#l2-letter,
+#a2-letter {
+  transform: translateY(50px);
+  opacity: 0;
+  transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+svg:hover #a1-letter {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+svg:hover #r-letter {
+  transition-delay: 0.1s;
+  transform: translateY(0);
+  opacity: 1;
+}
+
+svg:hover #c-letter {
+  transition-delay: 0.2s;
+  transform: translateY(0);
+  opacity: 1;
+}
+
+svg:hover #e-letter {
+  transition-delay: 0.3s;
+  transform: translateY(0);
+  opacity: 1;
+}
+
+svg:hover #l1-letter {
+  transition-delay: 0.4s;
+  transform: translateY(0);
+  opacity: 1;
+}
+
+svg:hover #l2-letter {
+  transition-delay: 0.5s;
+  transform: translateY(0);
+  opacity: 1;
+}
+
+svg:hover #a2-letter {
+  transition-delay: 0.6s;
+  transform: translateY(0);
+  opacity: 1;
+}

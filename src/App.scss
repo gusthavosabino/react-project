@@ -1,0 +1,20 @@
+// App.scss
+.app {
+    display: flex;
+  }
+  
+  .sidebar {
+    flex: 0 0 250px;
+    transition: transform 0.3s ease;
+    transform: translateX(-86%);
+  }
+  
+  .sidebar.open {
+    transform: translateX(0);
+  }
+  
+  .content {
+    flex: 1;
+    padding: 20px;
+  }
+  

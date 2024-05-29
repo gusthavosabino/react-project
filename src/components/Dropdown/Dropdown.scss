@@ -1,0 +1,27 @@
+// src/components/Dropdown/Dropdown.scss
+body.default {
+  font-family: Arial, sans-serif;
+  background-color: white;
+  color: black;
+}
+
+body.casual {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  background-color: lightyellow;
+  color: green;
+}
+
+body.professional {
+  font-family: 'Times New Roman', Times, serif;
+  background-color: lightgrey;
+  color: navy;
+}
+
+.dropdown-container {
+  margin: 20px;
+}
+
+label {
+  margin-right: 10px;
+  color: white;
+}
